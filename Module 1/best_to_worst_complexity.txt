@@ -1,0 +1,33 @@
+Ai porjonto joto gulo complexity dekhlam, tader moddhe konta best seita serial korbo. Ai complexity calculate korar somoi n time loop chlate hoi. So 1st a amra n er akta fixed value dhore nia calculate korbo.
+
+N = 1000;
+
+Constant: O(1) -> 1 complexity 
+-> kono program a jodi loop na chole tahole, tahole sokol statement cholte jei time lage, seita 1 ta statement exicute er time er soman e hoi. Tai jodi kono loop na use hoi. tahole tar complexity 1 dhora hoi.
+
+Linear: O(N) -> 1000 complexity 
+-> kono program n times or 1000 bar loop cholle, tar complexity 1000 ba 1000 bar exicute hobe.
+
+Logarithmic: O(logN) -> 10 complexity 
+-> jodi n=1000 hoi. Tahole logN ber korle output a 9.9657... asbe. Jeita total 10 bar loop chalabe. Tai er complexity 10. logN ber kora jonno ai website a try korte pari. Aikhane log er base hisabe normaly 2 use korbo. Ar power or n hisabe n er value use korbo: https://www.calculator.net/log-calculator.html?xv=1000&base=2&yv=&x=Calculate
+
+square root: O(sqrt(N)) -> 32 complexity 
+-> n=1000 hole, 1000 er sqrt hobe 32. tai 32 bar loop cholbe.
+
+quadratic: O(N*N) -> 1000000 complexity
+
+Linearithmic: O(NlogN) -> 1000 * 10 = 10000 complexity
+-> Aikhane n=1000 and logN = 10. 2ta multiple korle 10000 output a ase. So 10000 times loop cholbe.
+
+
+
+
+
+
+Sob theke valo and kom complexity to normal complexity serial:
+Constant: O(1) -> 1 complexity 
+Logarithmic: O(logN) -> 10 complexity 
+square root: O(sqrt(N)) -> 32 complexity 
+Linear: O(N) -> 1000 complexity 
+Linearithmic: O(NlogN) -> 1000 * 10 = 10000 complexity
+quadratic: O(N*N) -> 1000000 complexity
